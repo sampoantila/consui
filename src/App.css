@@ -49,6 +49,59 @@
   text-align: center;
 }
 
+.meterdiff {
+  margin-left: 140px;
+  background-color: lightblue;
+}
+
 .meterGroup {
   margin: 0 auto;
+}
+
+.meterLabel {
+  color: lightgray;
+  font-size: 20px;
+}
+
+.meterLabelDiff {
+  color: black;
+  font-size: 20px;
+}
+
+.meterValueLabel {
+  margin: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+.blinkOn {
+  position: relative;
+  left: 10px;
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+  background-color: cyan;
+}
+
+.blinkOff {
+  position: relative;
+  left: 10px;
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.negativeDiff {
+  color: red;
+  font-weight: bold;
+}
+
+.positiveDiff {
+  color: green;
+  font-weight: bold;
+}
+
+.noDiff {
+  color: gray;
 }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Meter from './components/Meter';
+import Content from './components/Content';
 
 class App extends Component {
   render() {
@@ -9,10 +9,7 @@ class App extends Component {
         <header className="App-header">Consumption UI</header>
       </div>
       <div className="App-content">
-        <div className="meterGroup">
-          <Meter meterId="1" />
-          <Meter meterId="2" />
-        </div>
+        <Content />
       </div>
       </div>
     );
