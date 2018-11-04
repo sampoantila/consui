@@ -43,12 +43,12 @@ class Content extends Component {
 
     render() {
         return <div>
-        <div className="meterGroup">
-          <Meter meterId="1" data={this.state.meterData1} />
-          <Meter meterId="2" data={this.state.meterData2} />
-          <br/>
-          <MeterDiff data1={this.state.meterData1} data2={this.state.meterData2} />
-          </div>
+            <div className="meterGroup">
+                <Meter meterId="1" data={this.state.meterData1} />
+                <Meter meterId="2" data={this.state.meterData2} />
+                <br/>
+                <MeterDiff data1={this.state.meterData1} data2={this.state.meterData2} />
+            </div>
         </div>;
     }
 }
